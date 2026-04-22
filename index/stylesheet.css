@@ -1,0 +1,93 @@
+             body{
+            	color:#837d8a;
+            	background: #302f36;
+            	text-align: center;
+            	font-family:sans-serif;
+            	margin:0;
+            }
+            h2{
+                font-family:"Comic+Relief";
+
+            }
+            p{
+            	font-family:sans-serif;
+            	color:#d1d1d1;
+            	font-size:clamp(1.5rem, 2.5vw, 2.5rem) ;
+            }
+            img{
+                width: 100%;
+                height: 50%;
+                object-fit: cover;
+                align-content: center;
+
+            }
+            nav{
+            	text-align:left;
+            	background:#949494;
+            	min-height: 7vh;
+            	padding:1.5rem;
+            	background-size: cover;
+            }
+            nav a{
+                color:#545454;
+            	text-decoration: none;
+            	font-size: clamp(1.5rem, 2.5vw, 2rem);
+            	margin:0 2.5rem;
+            }
+            .card { 
+           
+                 background:#545454; 
+                 padding: 3rem ; 
+                 margin: 0.5rem; 
+                 border-radius: 2rem; 
+                 text-align: center;
+                 width:20rem;
+                 vertical-align: center;
+                 flex: 1 1 300px;
+                }
+            .box{
+                 display:flex;
+                 flex-direction:row;
+                  flex: 1 1 300px;
+                  align-items: center;
+             }
+             .hero{
+                 background: url("imgs/graveyard.png") no-repeat center;
+                 background-size: cover;
+                 min-height: 55vh;
+            }
+            .homepage{
+                 background: url("imgs/homepagetop.png") no-repeat center;
+                 background-size: cover;
+                 min-height: 55vh;
+                 align-content: center;
+                 color:darkred;
+            }
+            @media (max-width: 600px) {
+                    nav {
+                         text-align: center; 
+                          padding: 0.75rem;
+                          flex-direction: column;
+  }
+    
+                    nav a {
+                         display: block;      
+                         margin: 0.5rem 0;    
+                         padding: 0.75rem;   }
+                         
+
+                .box{
+                    flex-direction:column;
+                }
+}
+            @media (min-width: 601px) {
+                    
+                    nav{
+                       flex-direction:row;
+                  }
+                  .box{
+                    flex-direction:row;
+
+
+                  }
+              }
