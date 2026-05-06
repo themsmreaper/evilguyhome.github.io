@@ -1,0 +1,140 @@
+             body{
+            	color:#837d8a;
+            	background: #302f36;
+            	text-align: center;
+            	font-family:sans-serif;
+            	margin:0;
+            }
+            h2{
+                font-family:"Comic+Relief";
+
+            }
+            p{
+            	font-family:sans-serif;
+            	color:#d1d1d1;
+            	font-size:clamp(1.5rem, 2vw, 2rem) ;
+            }
+            img{
+                width: 50%;
+                height: 25%;
+                object-fit: cover;
+                align-content: center;
+
+            }
+            nav{
+            	text-align:left;
+            	background:#949494;
+            	min-height: 7vh;
+            	padding:1.5rem;
+            	background-size: cover;
+            }
+            nav a{
+                color:#545454;
+            	text-decoration: none;
+            	font-size: clamp(1rem, 2vw, 1.5rem);
+            	margin:0 2.5rem;
+            }
+            .card { 
+           
+                 background:#545454; 
+                 padding: 1.5rem ; 
+                 margin: 2rem; 
+                 border-radius: 2rem; 
+                 text-align: center;
+                 width:25%;
+                 vertical-align: center;
+                 flex: 5 5 6.25rem;
+
+
+                }
+                 .card2 { 
+           
+                 background:#545454; 
+                 padding: .5rem ; 
+                 margin: 1rem; 
+                 border-radius: 2rem; 
+                 text-align: center;
+                 vertical-align: center;
+                 border: 1rem;
+
+                 
+
+                }
+            .box{
+                 display:flex;
+                 flex-direction:row;
+                  flex: 1 1 4rem ;
+                  align-items: center;
+                 
+
+             }
+             .box2{
+                 display:flex;
+                 flex-direction:column;
+                  align-items: center;
+                  border: .5rem;
+                  
+
+
+             }
+             .box3{
+                 display:flex;
+                 flex-direction:row;
+               justify-content: center;
+                  align-items: center;
+                  border:.5rem;
+                 
+              
+             }
+             .hero{
+                 background: url("imgs/graveyard.png") no-repeat center;
+                 background-size: cover;
+                 min-height: 55vh;
+            }
+            .homepage{
+                 background: url("imgs/homepagetop.png") no-repeat center;
+                 background-size: cover;
+                 min-height: 55vh;
+                 align-content: center;
+                 color:darkred;
+            }
+            .theguys{
+                width:100%;
+                height:50%;
+            }
+
+            .candy{
+                height:200%;
+            }
+           
+
+            @media (max-width: 600px) {
+                    nav {
+                         text-align: center; 
+                          padding: 0.75rem;
+                          flex-direction: column;
+  }
+    
+                    nav a {
+                         display: block;      
+                         margin: 0.5rem 0;    
+                         padding: 0.75rem;   }
+                         
+
+                .box{
+                    flex-direction:column;
+                }
+}
+            @media (min-width: 601px) {
+                    
+                    nav{
+                       flex-direction:row;
+                  }
+                  .box{
+                    flex-direction:row;
+
+
+                  }
+              }
+              .navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;}
